@@ -1,0 +1,9 @@
+<button type="button" (click)="getValues()">
+  Get Users
+</button>
+
+<div *ngFor="let value of valueList">
+  <p>
+    Name: {{value.name}}, Age: {{value.age}}
+  </p>
+</div>
